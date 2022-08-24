@@ -38,8 +38,5 @@ Route::get('/food', [FoodController::class, 'all']);
 Route::get('/test', function() {return 'Hello world!';});
 
 Route::post('/midtrans/callback', [MidtransController::class, 'callback']);
-Route::get('/midtrans/callback', function() {
-    return "Hello World!";
-});
 
 Route::post('/transaction/{id}/confirm', [TransactionController::class, 'confirm']);
