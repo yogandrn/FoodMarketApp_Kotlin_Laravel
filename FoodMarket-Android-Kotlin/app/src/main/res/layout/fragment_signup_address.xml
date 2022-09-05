@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.SignupAddressFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="24dp"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="25dp">
+
+        <!-- TODO: Update blank fragment layout -->
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_picture_empty"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginBottom="16dp"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_500"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/signup_phone"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/phone_hint"
+            android:fontFamily="@font/poppins_400"
+            android:textSize="15sp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/custom_edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_500"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/signup_address"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/address_hint"
+            android:fontFamily="@font/poppins_400"
+            android:textSize="15sp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/custom_edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/house_number"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_500"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/signup_house_number"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/house_number_hint"
+            android:fontFamily="@font/poppins_400"
+            android:textSize="15sp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/custom_edit_text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/city"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_500"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/signup_city"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/city_hint"
+            android:fontFamily="@font/poppins_400"
+            android:textSize="15sp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/custom_edit_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_button"
+            android:paddingVertical="15dp"
+            android:text="@string/title_signup"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_600"
+            android:textColor="@color/accentColor"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

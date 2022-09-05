@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_auth"
+    app:startDestination="@id/fragmentSignin">
+
+    <fragment android:id="@+id/fragmentSignin"
+        android:name="com.yogandrn.foodmarket.kotlin.ui.auth.SigninFragment"
+        tools:layout="@layout/fragment_signin">
+
+        <action android:id="@+id/action_signup" app:destination="@id/fragmentSignup"/>
+
+    </fragment>
+    <fragment android:id="@+id/fragmentSignup"
+        android:name="com.yogandrn.foodmarket.kotlin.ui.auth.SignupFragment"
+        tools:layout="@layout/fragment_signup">
+
+        <action android:id="@+id/action_signup_address" app:destination="@id/fragmentSignupAddress"/>
+    </fragment>
+
+    <fragment android:id="@+id/fragmentSignupAddress"
+        android:name="com.yogandrn.foodmarket.kotlin.ui.auth.SignupAddressFragment"
+        tools:layout="@layout/fragment_signup_address">
+        <action android:id="@+id/action_signup_success" app:destination="@id/fragmentSignupSuccess"/>
+    </fragment>
+
+    <fragment android:id="@+id/fragmentSignupSuccess"
+        android:name="com.yogandrn.foodmarket.kotlin.ui.auth.SignupSuccessFragment"
+        tools:layout="@layout/fragment_signup_success">
+
+    </fragment>
+
+</navigation>

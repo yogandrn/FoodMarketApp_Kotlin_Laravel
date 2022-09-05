@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_edit_profile"
+    android:id="@+id/nav_user_profile">
+
+    <fragment android:id="@+id/fragment_user_profile"
+        android:name="com.yogandrn.foodmarket.kotlin.ui.profile.editprofile.UserProfileFragment"
+        tools:layout="@layout/fragment_user_profile">
+        <action android:id="@+id/action_edit_profile"
+            app:destination="@+id/fragment_edit_profile"/>
+    </fragment>
+
+    <fragment android:id="@+id/fragment_edit_profile"
+        android:name="com.yogandrn.foodmarket.kotlin.ui.profile.editprofile.EditProfileFragment"
+        tools:layout="@layout/fragment_edit_profile">
+<!--        <action android:id="@+id/action_detail_order"-->
+<!--            app:destination="@+id/fragment_detail_order"/>-->
+    </fragment>
+
+</navigation>
