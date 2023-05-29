@@ -9,4 +9,5 @@
 
 ## About Laravel
 Website : https://sipaling-ngoding.my.id/foodmarket
+email : yoga@gmail.com
 password : password
