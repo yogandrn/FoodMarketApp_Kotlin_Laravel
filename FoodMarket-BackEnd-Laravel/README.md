@@ -9,5 +9,4 @@
 
 ## About Laravel
 Website : https://sipaling-ngoding.my.id/foodmarket
-email : ypga@gmail.com
 password : password
