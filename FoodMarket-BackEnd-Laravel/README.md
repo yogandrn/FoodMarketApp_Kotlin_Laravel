@@ -4,7 +4,7 @@
 ## About FoodMarket Apps
 Aplikasi untuk pesan makan berbasis website dan Android. Dikembangkan dengan bahasa Kotlin dan Laravel framework.
 <br/>
-Website : <a href="https://sipaling-ngoding.my.id/foodmarket" target="blank">link website</a> 
+Website : https://sipaling-ngoding.my.id/foodmarket
 <br/>
 email : yoga@gmail.com
 <br/>
